@@ -31,10 +31,10 @@
 |Mission|Repository|Pull Request|
 |------|---|---|
 |지하철역 인수테스트 작성|[michaelkimm/atdd-subway-map](https://github.com/michaelkimm/atdd-subway-map)|[pull request](https://github.com/next-step/atdd-subway-map/pull/853)|
-|지하철 노선 관리|[michaelkimm/atdd-subway-map](https://github.com/michaelkimm/atdd-subway-map)|[pull request]()|
-|지하철 구간 관리|[michaelkimm/atdd-subway-map](https://github.com/michaelkimm/atdd-subway-map)|[pull request]()|
+|지하철 노선 관리|[michaelkimm/atdd-subway-map](https://github.com/michaelkimm/atdd-subway-map)|[pull request](https://github.com/next-step/atdd-subway-map/pull/885)|
+|지하철 구간 관리|[michaelkimm/atdd-subway-map](https://github.com/michaelkimm/atdd-subway-map)|[pull request](https://github.com/next-step/atdd-subway-map/pull/945)|
 
 
 #### 블로그 포스팅
-[ATDD 1주차 - 인수테스트란](https://excellent-snowshoe-c4c.notion.site/nextstep-ATDD-1-1e57b40067a84f459e57002e7ebe68eb?pvs=4)
-[인수테스트 격리 방법](https://excellent-snowshoe-c4c.notion.site/d8ff59f41eaa4f7c90b8c2c527d91ab6?pvs=4)
+- [ATDD 1주차 - 인수테스트란](https://excellent-snowshoe-c4c.notion.site/nextstep-ATDD-1-1e57b40067a84f459e57002e7ebe68eb?pvs=4)
+- [인수테스트 격리 방법](https://excellent-snowshoe-c4c.notion.site/d8ff59f41eaa4f7c90b8c2c527d91ab6?pvs=4)
