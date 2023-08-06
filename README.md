@@ -1,15 +1,3 @@
-# 지하철 노선도 미션
-[ATDD 강의](https://edu.nextstep.camp/c/R89PYi5H) 실습을 위한 지하철 노선도 애플리케이션
-
-## 학습 계기
-- 동료의 의견에 따르면, 알고리즘 문제를 TDD 방법론으로 풀고 있었음.
-- TDD 방법론을 배워 의식적으로 사용하길 희망함.
-
-## 목표
-- TDD 개발 방법론을 학습 & 경험
-- 코드 리뷰어와 한 팀이 되어 작업하는 경험
-
-
 ## 🥊 나만의 TDD 사이클 단계
 
 ### 전체 사이클
@@ -51,6 +39,19 @@ _* '5. 시스템 오류 check'와 '7. 성능 고려'는 개발 경험이 쌓임�
 
 <br>
 
+---
+
+# 지하철 노선도 미션
+[ATDD 강의](https://edu.nextstep.camp/c/R89PYi5H) 실습을 위한 지하철 노선도 애플리케이션
+
+## 학습 계기
+- 동료의 의견에 따르면, 알고리즘 문제를 TDD 방법론으로 풀고 있었음.
+- TDD 방법론을 배워 의식적으로 사용하길 희망함.
+
+## 목표
+- TDD 개발 방법론을 학습 & 경험
+- 코드 리뷰어와 한 팀이 되어 작업하는 경험
+
 # 학습 기록
 ## 💛1주차: 인수테스트란
 #### **기간**
@@ -79,3 +80,38 @@ _* '5. 시스템 오류 check'와 '7. 성능 고려'는 개발 경험이 쌓임�
 #### 블로그 포스팅
 - [ATDD 1주차 - 인수테스트란](https://excellent-snowshoe-c4c.notion.site/nextstep-ATDD-1-1e57b40067a84f459e57002e7ebe68eb?pvs=4)
 - [인수테스트 격리 방법](https://excellent-snowshoe-c4c.notion.site/d8ff59f41eaa4f7c90b8c2c527d91ab6?pvs=4)
+
+---
+
+## 🧡2주차: 단위 테스트란
+#### **기간**
+- ```2023-07-06 - 2023-07-19```
+
+#### Bullet point
+**1. 테스트란**
+   - 요구사항에 대한 명세
+
+**2. <Outside->In>**
+   - 상위 레벨 레이어의 테스트 부터 작성하는 방식. 테스트 더블 이용.
+   - TDD 사이클 이어나가기 용이, 도메인 이해도 낮아도 테스트 작성 가능. but 협력 객체에 의존적인 테스트 작성.
+
+**3. <Inside->Out>**
+   - 도메인 모델 설계부터 시작하여 TDD 진행. 실제 객체 이용.
+   - 협력 객체에 의존적이지 않으며 요구사항 변화에 유연한 코드 작성 가능. but TDD 사이클 이어나가기 어려움.
+
+**4. TDD를 적용하기 좋은 방법**
+   - 인수 테스트를 작성하여 요구사항 명세.
+   - (선택) 컨트롤러, 서비스 레이어 작성
+   - 도메인 모델 상세하게 설계 후 TDD 진행
+
+#### 진행 미션
+|Mission|Repository|Pull Request|
+|------|---|---|
+|실습 - 단위 테스트 작성|[michaelkimm/atdd-subway-path](https://github.com/michaelkimm/atdd-subway-path)|[pull request](https://github.com/next-step/atdd-subway-path/pull/600)|
+|지하철 구간 추가 기능 개선|[michaelkimm/atdd-subway-path](https://github.com/michaelkimm/atdd-subway-path)|[pull request](https://github.com/next-step/atdd-subway-path/pull/610)|
+|지하철 구간 제거 기능 개선|[michaelkimm/atdd-subway-path](https://github.com/michaelkimm/atdd-subway-path)|[pull request](https://github.com/next-step/atdd-subway-path/pull/610)|
+|경로 조회 기능 기능|[michaelkimm/atdd-subway-path](https://github.com/michaelkimm/atdd-subway-path)|[pull request](https://github.com/next-step/atdd-subway-path/pull/623#issuecomment-1646744866)|
+
+
+#### 블로그 포스팅
+- [TDD 관점에서 테스트란? 장단점은?](https://ujkim-game.tistory.com/100)
